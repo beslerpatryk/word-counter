@@ -1,0 +1,37 @@
+<html>
+
+    <head>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+            <header>
+                <div class="header-wrapper">
+                    <div class="button-container">
+                        <button id="clear-btn">Clear</button>
+                        <button id="demo-text-btn">Demo Text</button>
+                    </div>
+                    <div class="counters">
+                        <p>Words: <span id="count"></span></p>
+                        <p>Characters: <span id="ch-count"></span></p>
+                        <p>Sentences: <span id="sent-count"></span></p>
+                    </div>
+                        <div class="spell-chk">
+                            <label for="autocorrect-btn">Spell Check</label>
+                            <input id="autocorrect-btn" type="checkbox" checked>
+                        </form>
+                </div>
+            </header>
+        <div class="container">
+            <div class="sticky">
+                <textarea id="txtid" name="txtname" rows="4" cols="50" maxlength="200" placeholder="📝Start typing here... "></textarea>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+
+</html>
